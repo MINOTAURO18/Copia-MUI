@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 8vh;
+  padding: 0 10%;
+  border-bottom: 1px solid #f0e9e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .img {
+  display: none;
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header .nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+.header .redes {
+  display: flex;
+  gap: 20px;
+  filter: invert(33%) sepia(77%) saturate(5370%) hue-rotate(199deg) brightness(99%) contrast(97%);
+}
+.header .redes span {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(245, 233, 233);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .header .nav {
+    display: none;
+  }
+  .header .img {
+    display: flex;
+  }
+}
+
+.seccion-uno {
+  width: 100%;
+  min-height: 92vh;
+  padding: 0 10%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.seccion-uno .primera {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.seccion-uno .primera h1 {
+  max-width: 500px;
+  font-size: 4.4rem;
+  color: rgb(3, 1, 27);
+  font-family: "PlusJakartaSans-ExtraBold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.seccion-uno .primera h1 span {
+  color: #0474e4;
+}
+.seccion-uno .primera p {
+  max-width: 520px;
+  color: rgb(62, 60, 60);
+  font-size: 1.1rem;
+}
+.seccion-uno .primera .btn {
+  max-width: 520px;
+  display: flex;
+  gap: 25px;
+}
+.seccion-uno .primera .btn .btn-1 {
+  background-color: #0474e4;
+  width: 140px;
+  height: 50px;
+  border: 1px solid rgb(200, 195, 195);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f0e9e9;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.seccion-uno .primera .btn .btn-2 {
+  width: 300px;
+  height: 50px;
+  border: 1px solid rgb(200, 195, 195);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #434040;
+}
+.seccion-uno .segunda {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.seccion-uno .segunda .c-uno {
+  background: #0474e4;
+  width: 380px;
+  height: 280px;
+  padding: 25px;
+  border: 1px solid rgb(210, 206, 206);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+  font-weight: 600;
+}
+.seccion-uno .segunda .c-uno img {
+  width: 40px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.seccion-uno .segunda .c-uno .cosito {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #0474e4;
+  font-weight: 600;
+}
+.seccion-uno .segunda .c-dos {
+  width: 380px;
+  height: 150px;
+  border: 1px solid rgb(214, 209, 209);
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.seccion-uno .segunda .c-dos img {
+  width: 124px;
+  border-radius: 10px;
+}
+@media (max-width: 1100px) {
+  .seccion-uno .segunda {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .seccion-uno {
+    display: flex;
+    align-items: center;
+  }
+}
+.seccion-dos {
+  width: 100%;
+  height: 50vh;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.seccion-dos .aliados {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.seccion-dos p {
+  color: #434040;
+  max-width: 400px;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

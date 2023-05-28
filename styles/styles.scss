@@ -11,8 +11,16 @@ $font-size-p:1.1rem;
   box-sizing: border-box;
 }
 
+html{
+  font-family: "PlusJakartaSans-ExtraBold",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
 // menu de navegacion
 .header{
+  background-color: white;
+  position: sticky;
+  top: 0;
+  opacity: .9;
   width: 100%;
   height: 8vh;
   padding: 0 10%;  
@@ -228,5 +236,265 @@ $font-size-p:1.1rem;
       color: #434040;
       max-width: 400px;
       text-align: center;
+    }
+}
+
+
+// seccion tres 
+
+
+.seccion-tres{
+  background-color: #f3f6f9;
+  width: 100%;
+  min-height: 92vh;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+    .c-uno{
+      max-width: 550px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+        
+       h4{
+        color: $color-principal;
+        font-weight: 900;
+       }
+       h2{
+        color: $color-letra;
+        font-size: 2.5rem;
+        font-weight: 700;
+        max-width: 500px;
+          span{
+            color: $color-principal;
+          }
+       }
+       p{
+        max-width: 440px;
+        color: #434040;
+       }
+
+       div{
+        width: 490px;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 10px;
+           div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+              h3{
+                color:$color-letra;
+                font-size: $font-size-p;
+                font-weight: 900;
+              }
+              a{
+                text-decoration: none;
+                color: $color-principal;
+                font-weight: 900;
+              }
+           }
+           .img{
+            margin-left: 15px;
+            width: auto;
+              img{
+                width: 36px;
+                height: 36px;
+              }
+           
+           }
+
+
+       }
+
+       div:hover{
+        background-color: #ecedef;
+       }
+
+       .pri{
+        background-color: white;
+        border: 1px solid rgb(223, 220, 220);
+        border-radius: 10px;
+        transition: all .2s ease-in-out;
+       }
+
+       .pri:hover{
+         box-shadow: 0 2px 4px rgba(110, 107, 107, 0.4);;
+       }
+    }
+
+    .c-dos{
+      background-color: rgb(231 235 240);
+      border: 1px solid rgb(218, 215, 215);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+        .r-uno{
+          background-color: white;
+          margin: auto;
+          max-width:450px;
+          height: auto;
+          padding: 10px;
+          border: 1px solid rgb(227, 223, 223);
+          border-radius: 10px;
+
+            img{
+              width: 60px;
+              border-radius: 50%;
+            }
+        }
+
+        .code{
+          background-color: #001E3C;
+          border-radius: 10px;
+          width: 100%;
+          height: 70%;
+          display: flex;
+         
+
+           
+        }
+    }
+}
+
+
+//seccion cuatro
+
+.seccion-cuatro{
+  width: 100%;
+  min-height: 72vh;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+    article{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h4{
+        color: $color-principal;
+        font-weight: 900;
+      }
+
+      h2{
+        color: $color-letra;
+        max-width: 480px;
+        font-size: 2.5rem;
+        font-weight: 900;
+
+         span{
+          color: $color-principal;
+         }
+      }
+    }
+
+    .cards{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+
+        .card{
+          width: 250px;
+          height: 160px;
+          border: 1px solid rgb(200, 196, 196);
+          border-radius: 10px;
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          transition: all .2s ease-in-out;
+            span{
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 5px;
+            }
+
+            p{
+              color: #434040;
+            }
+        }
+
+        .card:hover{
+          transform: translateY(-3px);
+        }
+    }
+}
+
+// seccion cinco 
+
+.seccion-cinco{
+  background-color: #022d59;
+  width: 100%;
+  min-height: 60vh;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+
+    .c-uno{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+        p{
+          color: rgb(255, 255, 255);
+          font-size: 1rem;
+          font-weight: 600;
+          letter-spacing: .8px;
+        }
+
+        div{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+            img{
+              border-radius: 50%;
+              border: 2px solid $color-principal;
+            }
+
+            h3{
+              color: white;
+              font-size: 1rem;
+                span{
+                  color: #beb7b7;
+                  opacity: .6;
+                }
+            }
+        }
+
+    }
+
+    .c-dos{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 60px;
+
+        div{
+          width: 200px;
+          height: auto;
+          color: rgb(108, 166, 237);
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+
+            h2{
+              font-size: 1.8rem;
+            }
+            span{
+              color: #c0bcbc;
+            }
+        }
     }
 }

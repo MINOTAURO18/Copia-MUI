@@ -124,7 +124,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="div">
           <div class="img">
             <img src="./assets/mui-x.svg" alt="">
           </div>
@@ -136,7 +136,7 @@
         </div>
 
 
-        <div>
+        <div class="div">
           <div class="img">
             <img src="./assets/templates.svg" alt="">
           </div>
@@ -147,7 +147,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="div">
           <div class="img">
             <img src="./assets/design-kits.svg" alt="">
           </div>
@@ -162,7 +162,7 @@
 
       <article class="c-dos">
         <div class="r-uno">
-          <span>March 25th</span>
+          <span class="fecha">March 25th</span>
 
           <h3>Check the docs for getting every component API</h3>
 
@@ -178,32 +178,44 @@
 
         <p style="margin: auto;">Hover over the component to highlight the code.</p>
 
-          <pre class="code">
-            <code>
-              <span style="color: rgb(96, 96, 223);">function</span> <span style="color: #336699;">sum</span>(<span style="color: rgb(238, 10, 238);">a</span>, <span style="color: rgb(236, 5, 236);">b</span>) {
-                <span style="color: rgb(3, 218, 3);">// Suma dos números</span>
-                <span style="color: rgb(97, 97, 243);">return</span> <span style="color: purple;">a</span> + <span style="color: rgb(236, 4, 236);">b</span>;
-              }
-          
-              <span style="color: rgb(61, 61, 236);">const</span> <span style="color: #0c63bb;">result</span> = <span style="color: #0270dd;">sum</span>(<span style="color: rgb(213, 15, 213);">4</span>, <span style="color: purple;">6</span>);
-              <span style="color: rgb(52, 52, 234);">console</span>.<span style="color: #107be6;">log</span>(<span style="color: #0b75df;">result</span>);
-          
-              <span style="color: rgb(25, 25, 227);">function</span> <span style="color: #096bcc;">greet</span>(<span style="color: purple;">name</span>) {
-                <span style="color: rgb(10, 214, 10);">// Saluda al usuario</span>
-                <span style="color: rgb(16, 16, 207);">console</span>.<span style="color: #336699;">log</span>(<span style="color: rgb(0, 214, 0);">`Hola, <span style="color: rgb(226, 38, 226);">${name}</span>!`</span>);
-              }
-          
-              <span style="color: #336699;">greet</span>(<span style="color: green;">'Juan'</span>);
-          
-              <span style="color: blue;">function</span> <span style="color: #336699;">multiply</span>(<span style="color: purple;">x</span>, <span style="color: purple;">y</span>) {
-                <span style="color: green;">// Multiplica dos números</span>
-                <span style="color: blue;">return</span> <span style="color: purple;">x</span> * <span style="color: purple;">y</span>;
-              }
-          
-              <span style="color: blue;">const</span> <span style="color: #336699;">product</span> = <span style="color: #336699;">multiply</span>(<span style="color: purple;">2</span>, <span style="color: purple;">3</span>);
-              <span style="color: blue;">console</span>.<span style="color: #336699;">log</span>(<span style="color: #336699;">product</span>);
-            </code>
-          </pre>
+        <pre class="code">
+          <code class="coded">
+            <span style="color: #a8c6f5;">function</span> <span style="color: #6bc1e8;">sum</span>(<span style="color: #e9c3ff;">a</span>, <span style="color: #e9c3ff;">b</span>) {
+              <span style="color: #f1f8ff;">// Suma dos números</span>
+              <span style="color: #f92472;">&#123;</span>
+                <span style="color: #a8c6f5;">return</span> <span style="color: #e9c3ff;">a</span> + <span style="color: #e9c3ff;">b</span>;
+              <span style="color: #f92472;">&#125;</span>
+            }
+        
+            <span style="color: #a8c6f5;">const</span> <span style="color: #6bc1e8;">result</span> = <span style="color: #6bc1e8;">sum</span>(<span style="color: #e9c3ff;">4</span>, <span style="color: #e9c3ff;">6</span>);
+            <span style="color: #a8c6f5;">console</span>.<span style="color: #6bc1e8;">log</span>(<span style="color: #6bc1e8;">result</span>);
+
+            <span style="color: #a8c6f5;">const</span> <span style="color: #6bc1e8;">result</span> = <span style="color: #6bc1e8;">sum</span>(<span style="color: #e9c3ff;">4</span>, <span style="color: #e9c3ff;">6</span>);
+            <span style="color: #a8c6f5;">console</span>.<span style="color: #6bc1e8;">log</span>(<span style="color: #6bc1e8;">result</span>);
+        
+            <span style="color: #a8c6f5;">function</span> <span style="color: #6bc1e8;">greet</span>(<span style="color: #e9c3ff;">name</span>) {
+              <span style="color: #f1f8ff;">// Saluda al usuario</span>
+              <span style="color: #f92472;">&#123;</span>
+                <span style="color: #a8c6f5;">console</span>.<span style="color: #6bc1e8;">log</span>(<span style="color: #f1f8ff;">`Hola, <span style="color: #e9c3ff;">${name}</span>!`</span>);
+              <span style="color: #f92472;">&#125;</span>
+            }
+        
+            <span style="color: #6bc1e8;">greet</span>(<span style="color: #f1f8ff;">'Juan'</span>);
+        
+            <span style="color: #a8c6f5;">function</span> <span style="color: #6bc1e8;">multiply</span>(<span style="color: #e9c3ff;">x</span>, <span style="color: #e9c3ff;">y</span>) {
+              <span style="color: #f1f8ff;">// Multiplica dos números</span>
+              <span style="color: #f92472;">&#123;</span>
+                <span style="color: #a8c6f5;">return</span> <span style="color: #e9c3ff;">x</span> * <span style="color: #e9c3ff;">y</span>;
+              <span style="color: #f92472;">&#125;</span>
+            }
+        
+            <span style="color: #a8c6f5;">const</span> <span style="color: #6bc1e8;">product</span> = <span style="color: #6bc1e8;">multiply</span>(<span style="color: #e9c3ff;">2</span>, <span style="color: #e9c3ff;">3</span>);
+            <span style="color: #a8c6f5;">console</span>.<span style="color: #6bc1e8;">log</span>(<span style="color: #6bc1e8;">product</span>);
+          </code>
+        </pre>
+        
+        
+        
           
       </article>
 

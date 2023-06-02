@@ -265,14 +265,17 @@ html{
   flex-wrap: wrap;
   justify-content: space-between;
   @media (width < 500px){
-    padding: 0;
+    padding: 10% 0;
+    gap: 40px;
   }
     .c-uno{
       max-width: 500px;
       display: flex;
       flex-direction: column;
       gap: 20px;
-        
+      @media (width < 500px){
+        align-items: center;
+      }
        h4{
         color: $color-principal;
         font-weight: 900;

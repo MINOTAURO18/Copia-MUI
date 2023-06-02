@@ -230,7 +230,8 @@ html {
 }
 @media (width < 500px) {
   .seccion-tres {
-    padding: 0;
+    padding: 10% 0;
+    gap: 40px;
   }
 }
 .seccion-tres .c-uno {
@@ -238,6 +239,11 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+@media (width < 500px) {
+  .seccion-tres .c-uno {
+    align-items: center;
+  }
 }
 .seccion-tres .c-uno h4 {
   color: #0474e4;

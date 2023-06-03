@@ -76,7 +76,7 @@ html {
   max-width: 500px;
   font-size: 4.4rem;
   font-weight: 900;
-  color: rgb(3, 1, 27);
+  color: rgb(5, 1, 40);
 }
 .seccion-uno .primera h1 span {
   color: #0474e4;
@@ -255,7 +255,7 @@ html {
   }
 }
 .seccion-tres .c-uno h2 {
-  color: rgb(3, 1, 27);
+  color: rgb(5, 1, 40);
   font-size: 2.5rem;
   font-weight: 700;
   max-width: 500px;
@@ -292,7 +292,7 @@ html {
   justify-content: center;
 }
 .seccion-tres .c-uno div div h3 {
-  color: rgb(3, 1, 27);
+  color: rgb(5, 1, 40);
   font-size: 1.1rem;
   font-weight: 900;
 }
@@ -393,7 +393,7 @@ html {
   font-weight: 900;
 }
 .seccion-cuatro article h2 {
-  color: rgb(3, 1, 27);
+  color: rgb(5, 1, 40);
   max-width: 480px;
   font-size: 2.5rem;
   font-weight: 900;
@@ -519,4 +519,257 @@ html {
 }
 .seccion-cinco .c-dos div span {
   color: #c0bcbc;
+}
+
+.seccion-seis {
+  width: 100%;
+  min-height: 30vh;
+  padding: 5% 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.seccion-seis .c-uno {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.seccion-seis .c-uno h4 {
+  color: #0474e4;
+  font-weight: 700;
+}
+.seccion-seis .c-uno h2 {
+  font-size: 2.2rem;
+  color: rgb(5, 1, 40);
+}
+.seccion-seis .c-uno h2 span {
+  color: #0474e4;
+}
+.seccion-seis .c-uno p {
+  max-width: 430px;
+  color: #585656;
+}
+.seccion-seis .c-dos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.seccion-seis .c-dos h2 {
+  color: #0474e4;
+}
+.seccion-seis .c-dos .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media (width < 900px) {
+  .seccion-seis .c-dos .cards {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.seccion-seis .c-dos .cards .card {
+  max-width: 350px;
+  height: 120px;
+  border: 1px solid rgb(210, 205, 205);
+  border-radius: 10px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.seccion-seis .c-dos .cards .card div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.seccion-seis .c-dos .cards .card div h4 {
+  color: #0474e4;
+}
+.seccion-seis .c-dos .cards .card div p {
+  color: #595656;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.seccion-siete {
+  width: 100%;
+  min-height: 60vh;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.seccion-siete h2 {
+  color: #bb8404;
+  font-weight: 700;
+}
+.seccion-siete .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (width < 650px) {
+  .seccion-siete .cards {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.seccion-siete .cards .card {
+  width: 260px;
+  height: 100px;
+  border: 1px solid rgb(200, 196, 196);
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.seccion-siete .cards .card h4 {
+  color: #0474e4;
+  margin-bottom: 5px;
+}
+.seccion-siete .cards .card p {
+  color: #595656;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.seccion-siete .cards .card img {
+  width: 45px;
+  height: 45px;
+}
+
+.seccion-ocho {
+  background-color: #f3f6f9;
+  width: 100%;
+  min-height: 50vh;
+  padding: 5% 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.seccion-ocho .c-uno {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.seccion-ocho .c-uno h4 {
+  color: #0474e4;
+  font-weight: 900;
+}
+.seccion-ocho .c-uno h2 {
+  color: rgb(5, 1, 40);
+  font-size: 2.2rem;
+  max-width: 450px;
+}
+.seccion-ocho .c-uno h2 span {
+  color: #0474e4;
+}
+.seccion-ocho .c-uno p {
+  color: #4f4c4c;
+  margin-bottom: 20px;
+}
+.seccion-ocho .c-dos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media (width < 725px) {
+  .seccion-ocho .c-dos {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.seccion-ocho .c-dos .card {
+  width: 280px;
+  height: 150px;
+  border: 1px solid rgb(184, 180, 180);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.seccion-ocho .c-dos .card h4 {
+  color: #0474e4;
+}
+.seccion-ocho .c-dos .card p {
+  color: #595656;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.seccion-ocho .c-dos .card a {
+  text-decoration: none;
+  color: #0474e4;
+  font-weight: 900;
+}
+
+.seccion-nueve {
+  background-color: #f3f6f9;
+  width: 100%;
+  min-height: 60vh;
+  border-top: 1px solid rgb(229, 225, 225);
+  padding: 5% 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.seccion-nueve .c-uno {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.seccion-nueve .c-uno h4 {
+  color: #0474e4;
+}
+.seccion-nueve .c-uno p {
+  color: #595656;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.seccion-nueve .c-dos {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.seccion-nueve .c-dos .card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.seccion-nueve .c-dos .card h4 {
+  color: #0474e4;
+}
+.seccion-nueve .c-dos .card h6 {
+  color: #595656;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.seccion-diez {
+  width: 100%;
+  min-height: 15vh;
+  padding: 0 10%;
+  border-top: 1px solid rgb(229, 225, 225);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.seccion-diez h2 {
+  color: #595656;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.seccion-diez .redes {
+  display: flex;
+  gap: 20px;
+}
+.seccion-diez .redes img {
+  filter: invert(26%) sepia(1%) saturate(2669%) hue-rotate(314deg) brightness(94%) contrast(63%);
 }/*# sourceMappingURL=styles.css.map */
